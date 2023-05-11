@@ -1,0 +1,12 @@
+Trabajar con git:
+
+1. git init
+Para inicializar repositorio git, solo se hace una vez en un sitio web
+
+2. git status
+Es para chequear que todo este bien
+
+3. git add
+Esto permite agregar las modificaciones que agamos hecho
+
+4.

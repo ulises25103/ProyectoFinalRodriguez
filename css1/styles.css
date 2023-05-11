@@ -1,0 +1,148 @@
+/*SELECTOR UNIVERSAL*/
+*{
+    margin: 0;
+    padding: 0;
+    }
+    /*REGLA Y BUENA PRACTICA PARA LAS IMAGENES*/
+    img{
+        max-width: 100%;
+    }
+    
+    body{
+        font-family: 'Montserrat', sans-serif;
+    }
+    ul {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    header{
+        background-color: #33CCFF;
+        border: solid 1px;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        text-decoration: none;
+        white-space: nowrap;
+        box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.45);
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .menu{
+        margin-right: 2vw;
+    }
+
+    .menu li{
+        display: inline;
+        border-left: solid 1px black;
+        padding-left: 10px;
+        margin: 2px;
+    }
+
+    .menu li a{
+        color: rgb(0, 0, 0);
+    }
+    
+    .menu li a:hover {
+        color: #046ad0;
+        transition: all .2s;
+    }
+
+    .icono{
+        width: 50px;
+    }
+
+    .logo{
+        width: 100px;
+        margin: 10px ;
+        margin-left: 30px;
+    }
+
+    .ochopromo{
+        width: 50rem;
+        padding-left: 375px;
+    }
+
+    #elremo p{
+        margin: 30px;
+    }
+
+    .contacto-travesia{
+        text-decoration: none;
+    }
+
+    #footer{
+        margin: 30px;
+    }
+
+    .header {
+        grid-area: cabecera;
+    }
+    
+    footer {
+        grid-area: footer;
+    }
+    
+    nav {
+        grid-area: nav;
+    }
+    aside {
+        grid-area: publicidad;
+    }
+
+    #logros{
+        grid-area: logros;
+        /* justify-content: center; */
+    }
+
+    #superdiv {
+        display: grid;
+        grid-template-areas: /*QUEDA 3 COLUMNAS Y 4 FILAS*/
+            "cabecera cabecera "
+            "logros logros "
+            "footer footer "
+            "footer footer ";
+        grid-template-rows: 100px 1fr 1fr 75px;  /*4 FILAS*/
+        grid-template-columns: 100% auto ; /*3 COLUMNAS*/
+        /* column-gap: 10px;
+        row-gap: 10px; */
+        gap: 10px; /*ATAJO PARA COLUMNAS Y FILAS A LA VEZ*/
+        height: 100vh; /*viewport height*/
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    footer{
+        background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    }
+
+    .parrafo{
+        color:rgb(145, 145, 145) ;
+    }
+    #logoFooter {
+        width: 300px !important;
+    }
+
+    .btn{
+        background-color: #046ad0 ;
+        border: 1px solid black;
+    }
