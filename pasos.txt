@@ -11,3 +11,6 @@ Esto permite agregar las modificaciones que agamos hecho
 
 4.git commit -m "Un mensaje cualquiera" (primer commit:git commit -m "first commit")
 Esto es para confirmar la subida de repositorio 
+
+5. git branch 
+Es para crear una rama
