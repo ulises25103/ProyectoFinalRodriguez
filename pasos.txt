@@ -9,4 +9,5 @@ Es para chequear que todo este bien
 3. git add
 Esto permite agregar las modificaciones que agamos hecho
 
-4.
+4.git commit -m "Un mensaje cualquiera" (primer commit:git commit -m "first commit")
+Esto es para confirmar la subida de repositorio 
