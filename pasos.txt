@@ -17,3 +17,12 @@ Es para crear una rama
 
 6. git checkout "rama a eleccion"
 Es para cambiar de rama en rama
+
+7.git log
+Es para ver los cambios realizados 
+
+8.git log --oneline 
+para ser mar especifico en ver todos los cambios
+
+9. git checkout "codigo de un commit"
+Es para ver un commit en especifico, moverme en cada cambio que se hizo 

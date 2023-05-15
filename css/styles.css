@@ -22,7 +22,7 @@ header{
 
 
 @media (min-width:768px){
-    header{
+    .margin{
         margin-bottom: -20px;
     }
 }
@@ -184,7 +184,7 @@ footer{
     border-radius: 6px;
     overflow: hidden;
     margin: 0 auto;
-
+    
 }
 
 .slider{
@@ -337,3 +337,16 @@ iframe{
     width: 100%;
     margin: 0 auto;
 }
+
+/* INSTAGRAM */
+
+    .instagram-sticky{
+        flex-direction: column;
+        position: fixed;
+        top: 40%;
+        right: 2%;
+    }
+
+    .ig-sticky{
+        width: 35px;
+    }
