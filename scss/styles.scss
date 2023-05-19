@@ -363,3 +363,26 @@
     width: 35px;
   }
   
+  .custom-img{
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+  .card-footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0.75rem;
+  }
+
+  .card-link{
+    color: white;
+    text-decoration: none;
+    background-color: #046ad0;
+    padding: 10px;
+    border: solid black 1px;
+        &:hover{
+          color: #000000;
+          
+      }
+  }
