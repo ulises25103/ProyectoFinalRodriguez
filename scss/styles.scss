@@ -385,3 +385,21 @@
           color: #000000;
       }
   }
+
+  .calendario{
+    color: white;
+    text-decoration: none;
+    background-color: #046ad0;
+    padding: 10px;
+    border: solid black 1px;
+        a{
+          color: rgb(0, 0, 0);
+          text-decoration: none;
+          border: rgb(0, 0, 0) solid 1px;
+          padding: 5px;
+          background-color: #fff ;
+              &:hover{
+                color: #046ad0;
+              }
+        }
+  }
