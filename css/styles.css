@@ -356,21 +356,12 @@ iframe {
 }
 
 .container-labels {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
   padding-bottom: 5px;
   color: #fff;
 }
 
 .container-labels label {
-  cursor: pointer;
-  background-color: #046ad0;
-  border: solid black 1px;
-  padding: 5px;
-}
-.container-labels label:hover {
-  color: #000000;
+  gap: 30px;
 }
 
 #villa-constitucion, #bsas, #carlos-paz, #la-plata, #todas {
