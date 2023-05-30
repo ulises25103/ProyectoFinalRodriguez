@@ -46,10 +46,6 @@ nav {
   height: 60px;
 }
 
-h1 {
-  display: none;
-}
-
 nav ul {
   float: right;
   margin-right: 20px;
@@ -140,6 +136,7 @@ li a.active {
     display: grid;
     grid-template-areas: "header" "carrusel" "texto" "footer";
     gap: 10px;
+    flex: 1;
   }
   header {
     grid-area: header;
