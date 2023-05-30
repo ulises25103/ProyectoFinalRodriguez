@@ -43,14 +43,23 @@
         </nav>
     </header>
     <main>
-        <div class="text-center mb-4">
-            <h2>
-                Aca podes encontrar todas nuestras fotos en las regatas que nuestro club ha participado
-            </h2>
-        </div>
-        <div class="card text-center">
+        <div class="filtro-cards">
+            <input type="radio" name="seleccionado" id="todas" checked></input>
+            <input type="radio" name="seleccionado" id="la-plata"></input>
+            <input type="radio" name="seleccionado" id="bsas"></input>
+            <input type="radio" name="seleccionado" id="villa-constitucion"></input>
+            <input type="radio" name="seleccionado" id="carlos-paz"></input>
+            <div class="container-labels">
+                <label for="todas">Todas</label>
+                <label for="la-plata">La Plata</label>
+                <label for="bsas">Buenos Aires</label>
+                <label for="villa-constitucion">Villa Constitucion</label>
+                <label for="carlos-paz">Villa Carlos Paz</label>
+            </div>
+        <div class="padre-cards">
+        <div class="card text-center villa-constitucion">
             <div class="card-body">
-                <h5 class="card-title">Regatas en Villa Constitución</h5>
+                <h5 class="card-title">Villa Constitución - Santa Fe</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Oficial</h6>
                 <h6 class="card-subtitle mb-2 text-muted">Fecha: 18-19/3/22</h6>
             <div class="row col-sm-12 col-md-12">
@@ -62,9 +71,10 @@
                 <a href="https://photos.app.goo.gl/ziKUzTt26EPEVnYf7" class="card-link" target="_blank">Ir al google drive</a>
             </div>
             </div>
-            <div class="card text-center">
+        </div>
+            <div class="card text-center villa-constitucion">
                 <div class="card-body">
-                    <h5 class="card-title">Regata en Villa Constitución</h5>
+                    <h5 class="card-title">Villa Constitución - Santa Fe</h5>
                     <h6 class="card-subtitle mb-2 text-muted">Promocional</h6>
                     <h6 class="card-subtitle mb-2 text-muted">Fecha: 20/3/22</h6>
                     <div class="row col-sm-12 col-md-12">
@@ -77,12 +87,12 @@
                 </div>
             </div>
         </div>
-        <div class="card text-center">
+        <div class="card text-center bsas">
             <div class="card-body">
-                <h5 class="card-title">Regata en Tigre</h5>
+                <h5 class="card-title">Tigre - Buenos Aires</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Promocional</h6>
                 <h6 class="card-subtitle mb-2 text-muted">Fecha: 3/4/22</h6>
-                <div class="row col-sm-12 col-md-12">
+            <div class="row col-sm-12 col-md-12">
                 <div class="col-sm-12 col-md-4 mb-3"><img src="../img/tigre1.JPG" alt="foto2"></div>
                 <div class="col-sm-12 col-md-4 mb-3"><img src="../img/tigre2.JPG" alt="foto3"></div>
                 <div class="col-sm-12 col-md-4 mb-3"><img src="../img/tigre3.JPG" alt="foto4"></div>
@@ -92,9 +102,9 @@
             </div>
         </div>
     </div>
-    <div class="card text-center">
+    <div class="card text-center carlos-paz">
         <div class="card-body">
-            <h5 class="card-title">Cordoba</h5>
+            <h5 class="card-title">Villa Carlos Paz - Cordoba</h5>
             <h6 class="card-subtitle mb-2 text-muted">Promocional | Oficial</h6>
             <h6 class="card-subtitle mb-2 text-muted">Fecha: 22/4/22</h6>
             <div class="row col-sm-12 col-md-12">
@@ -107,9 +117,9 @@
         </div>
     </div>
 </div>
-<div class="card text-center">
+<div class="card text-center bsas">
     <div class="card-body">
-        <h5 class="card-title">Tigre</h5>
+        <h5 class="card-title">Tigre - Buenos Aires</h5>
         <h6 class="card-subtitle mb-2 text-muted">Promocional | Oficial</h6>
         <h6 class="card-subtitle mb-2 text-muted">Fecha: 25/6/22</h6>
         <div class="row col-sm-12 col-md-12">
@@ -121,9 +131,10 @@
         <a href="https://photos.app.goo.gl/6y5aayXgJj6h73vDA" class="card-link" target="_blank">Ir al google drive</a>
     </div>
 </div>
-<div class="card text-center">
+</div>
+<div class="card text-center villa-constitucion">
     <div class="card-body">
-        <h5 class="card-title">Villa Constitucion</h5>
+        <h5 class="card-title">Villa Constitución - Santa Fe</h5>
         <h6 class="card-subtitle mb-2 text-muted">Oficial</h6>
         <h6 class="card-subtitle mb-2 text-muted">Fecha: 9-10/7/22</h6>
         <div class="row col-sm-12 col-md-12">
@@ -132,8 +143,70 @@
         <div class="col-sm-12 col-md-4 mb-3"><img src="../img/duendes.jpg" alt="foto4"></div>
     </div>
         <div class="card-footer">
-        <a href="https://photos.app.goo.gl/6y5aayXgJj6h73vDA" class="card-link" target="_blank">Ir al google drive</a>
+        <a href="https://photos.app.goo.gl/fhnFcREiRRtGAyoc6" class="card-link" target="_blank">Ir al google drive</a>
     </div>
+</div>
+</div>
+<div class="card text-center la-plata">
+    <div class="card-body">
+        <h5 class="card-title">La Plata - CRLP</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Promocional</h6>
+        <h6 class="card-subtitle mb-2 text-muted">Fecha: 2/9/22</h6>
+        <div class="row col-sm-12 col-md-12">
+        <div class="col-sm-12 col-md-4 mb-3"><img src="../img/IMG_3818.JPG" alt="foto2"></div>
+        <div class="col-sm-12 col-md-4 mb-3"><img src="../img/IMG_3788.JPG" alt="foto3"></div>
+        <div class="col-sm-12 col-md-4 mb-3"><img src="../img/IMG_4210.JPG" alt="foto4"></div>
+    </div>
+        <div class="card-footer">
+        <a href="https://photos.app.goo.gl/nNJn5u8gUAr6z7ag7" class="card-link" target="_blank">Ir al google drive</a>
+    </div>
+</div>
+</div>
+<div class="card text-center la-plata">
+    <div class="card-body">
+        <h5 class="card-title">La Plata - CRLP</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Oficial</h6>
+        <h6 class="card-subtitle mb-2 text-muted">Fecha: 3/9/22</h6>
+        <div class="row col-sm-12 col-md-12">
+        <div class="col-sm-12 col-md-4 mb-3"><img src="../img/IMG_3983.JPG" alt="foto2"></div>
+        <div class="col-sm-12 col-md-4 mb-3"><img src="../img/IMG_3986.JPG" alt="foto3"></div>
+        <div class="col-sm-12 col-md-4 mb-3"><img src="../img/IMG_4449.JPG" alt="foto4"></div>
+    </div>
+        <div class="card-footer">
+        <a href="https://photos.app.goo.gl/NY3NpHZG92xpr7S9A" class="card-link" target="_blank">Ir al google drive</a>
+    </div>
+</div>
+</div>
+        <div class="card text-center carlos-paz">
+            <div class="card-body">
+                <h5 class="card-title">Villa Carlos Paz - Cordoba</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Promocional | Oficial</h6>
+                <h6 class="card-subtitle mb-2 text-muted">Fecha: 25-28/5/23</h6>
+            <div class="row col-sm-12 col-md-12">
+                <div class="col-sm-12 col-md-4 mb-3"><img src="../img/IMG_7247.JPG" alt="foto2"></div>
+                <div class="col-sm-12 col-md-4 mb-3"><img src="../img/IMG_7116.JPG" alt="foto3"></div>
+                <div class="col-sm-12 col-md-4 mb-3"><img src="../img/IMG_6880.JPG" alt="foto4"></div>
+            </div>
+            <div class="card-footer">
+                <a href="https://photos.app.goo.gl/EmfeQKbGbgJ93BReA" class="card-link" target="_blank">Ir al google drive</a>
+            </div>
+            </div>
+        </div>
+        <div class="card text-center bsas">
+            <div class="card-body">
+                <h5 class="card-title">Zarate - Buenos Aires</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Promocional | Oficial</h6>
+                <h6 class="card-subtitle mb-2 text-muted">Fecha: 6/11/22</h6>
+            <div class="row col-sm-12 col-md-12">
+                <div class="col-sm-12 col-md-4 mb-3"><img src="../img/IMG_9259.JPG" alt="foto2"></div>
+                <div class="col-sm-12 col-md-4 mb-3"><img src="../img/IMG_8126.JPG" alt="foto3"></div>
+                <div class="col-sm-12 col-md-4 mb-3"><img src="../img/IMG_8188.JPG" alt="foto4"></div>
+            </div>
+            <div class="card-footer">
+                <a href="https://photos.app.goo.gl/ZB2GL9GmJJ4dJF9f8" class="card-link" target="_blank">Ir al google drive</a>
+            </div>
+            </div>
+        </div>
 </div>
 </div>
     </main>

@@ -355,4 +355,44 @@ iframe {
   color: #046ad0;
 }
 
+.container-labels {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 5px;
+  color: #fff;
+}
+
+.container-labels label {
+  cursor: pointer;
+  background-color: #046ad0;
+  border: solid black 1px;
+  padding: 5px;
+}
+.container-labels label:hover {
+  color: #000000;
+}
+
+#villa-constitucion, #bsas, #carlos-paz, #la-plata, #todas {
+  display: none;
+}
+
+.villa-constitucion, .bsas, .carlos-paz, .la-plata {
+  display: none;
+}
+
+#la-plata:checked ~ .padre-cards .la-plata,
+#bsas:checked ~ .padre-cards .bsas,
+#villa-constitucion:checked ~ .padre-cards .villa-constitucion,
+#carlos-paz:checked ~ .padre-cards .carlos-paz {
+  display: flex;
+}
+
+#todas:checked ~ .padre-cards .la-plata,
+#todas:checked ~ .padre-cards .bsas,
+#todas:checked ~ .padre-cards .villa-constitucion,
+#todas:checked ~ .padre-cards .carlos-paz {
+  display: flex;
+}
+
 /*# sourceMappingURL=styles.css.map */
