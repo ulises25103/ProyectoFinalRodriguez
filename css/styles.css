@@ -14,6 +14,15 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/* TEXTO JUSTIFY / INDEX */
+.elremo p {
+  text-align: justify;
+}
+.elremo p h1 {
+  text-align: justify;
+}
+
+/* NAV / TODAS LAS PAGES */
 header {
   position: sticky;
   top: 0;
@@ -127,10 +136,7 @@ li a.active {
     border: none;
   }
 }
-#elremo p {
-  margin: 10px;
-}
-
+/* SUPERDIV / INDEX */
 @media (min-width: 768px) {
   #superdiv {
     display: grid;
@@ -152,6 +158,7 @@ li a.active {
     grid-area: footer;
   }
 }
+/* CARRUSEL / INDEX */
 #carrusel {
   position: relative;
   max-width: 1000px;
@@ -256,6 +263,7 @@ input[id="4"]:checked ~ .pagination .pagination__pagination-item[for="4"] {
   background: #fff;
 }
 
+/* FOOTER / TODAS LAS PAGES */
 footer {
   background-image: linear-gradient(to top, #046ad0 0%, #e7f0fd 100%);
   margin-top: 10px;
@@ -302,7 +310,7 @@ iframe {
   margin: 0 auto;
 }
 
-/* INSTAGRAM */
+/* INSTAGRAM / TODAS LAS PAGES */
 .instagram-sticky {
   flex-direction: column;
   position: fixed;
@@ -319,6 +327,7 @@ iframe {
   max-height: 500px;
 }
 
+/* CARDS / GALERIA DE IMAGENES */
 .card-footer {
   display: flex;
   justify-content: center;
@@ -337,6 +346,7 @@ iframe {
   color: #000000;
 }
 
+/* CALENDARIO DE REGATAS / INDEX */
 .calendario {
   color: white;
   text-decoration: none;
@@ -355,12 +365,10 @@ iframe {
   color: #046ad0;
 }
 
+/* SISTEMA DE FILTRADO GALERIA DE IMAGENES / GALERIA DE IMAGENES */
 .container-labels {
   padding-bottom: 5px;
   color: #fff;
-}
-
-.container-labels label {
   gap: 30px;
 }
 
@@ -384,6 +392,39 @@ iframe {
 #todas:checked ~ .padre-cards .villa-constitucion,
 #todas:checked ~ .padre-cards .carlos-paz {
   display: flex;
+}
+
+/* LOGROS */
+.ocholima, .brenda, .diazhaack {
+  object-fit: cover;
+}
+
+#carrusel__logros {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.calendario__logros {
+  color: white;
+  text-decoration: none;
+  background-color: #046ad0;
+  padding: 10px;
+  border: solid black 1px;
+  margin-top: 20px;
+}
+.calendario__logros a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border: rgb(0, 0, 0) solid 1px;
+  padding: 5px;
+  background-color: #fff;
+}
+.calendario__logros a:hover {
+  color: #046ad0;
 }
 
 /*# sourceMappingURL=styles.css.map */

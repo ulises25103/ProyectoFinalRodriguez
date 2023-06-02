@@ -13,7 +13,19 @@
   body {
     font-family: 'Montserrat', sans-serif;
   }
+
+  /* TEXTO JUSTIFY / INDEX */
+    .elremo{
+      p{
+        text-align: justify;
+      }
+      p h1{
+        text-align: justify;
+      }
+    }
   
+
+  /* NAV / TODAS LAS PAGES */
   header {
     position: sticky;
     top: 0;
@@ -143,11 +155,8 @@
       border: none;
     }
   }
-  
-  #elremo p {
-    margin: 10px;
-  }
-  
+
+  /* SUPERDIV / INDEX */
   @media (min-width: 768px) {
     #superdiv {
       display: grid;
@@ -174,6 +183,8 @@
     }
   }
   
+  /* CARRUSEL / INDEX */
+
   #carrusel {
     position: relative;
     max-width: 1000px;
@@ -299,6 +310,9 @@
     }
   }
   
+
+  /* FOOTER / TODAS LAS PAGES */
+
   footer {
     background-image: linear-gradient(to top, #046ad0 0%, #e7f0fd 100%);
     margin-top: 10px;
@@ -347,7 +361,7 @@
     margin: 0 auto;
   }
   
-  /* INSTAGRAM */
+  /* INSTAGRAM / TODAS LAS PAGES */
   
   .instagram-sticky {
     flex-direction: column;
@@ -365,6 +379,7 @@
     max-height: 500px;
   }
 
+  /* CARDS / GALERIA DE IMAGENES */
   .card-footer{
     display: flex;
     justify-content: center;
@@ -382,6 +397,8 @@
           color: #000000;
       }
   }
+
+  /* CALENDARIO DE REGATAS / INDEX */
 
   .calendario{
     color: white;
@@ -402,12 +419,11 @@
   }
 
 
+  /* SISTEMA DE FILTRADO GALERIA DE IMAGENES / GALERIA DE IMAGENES */
+
 .container-labels {
   padding-bottom: 5px;
   color: #fff;
-}
-
-.container-labels label{
   gap: 30px;
 }
 
@@ -425,6 +441,7 @@
 #villa-constitucion:checked ~ .padre-cards .villa-constitucion,
 #carlos-paz:checked ~ .padre-cards .carlos-paz {
   display: flex;
+  
 }
 
 #todas:checked ~ .padre-cards .la-plata,
@@ -434,3 +451,37 @@
   display: flex;
 }
 
+/* LOGROS */
+
+.ocholima, .brenda, .diazhaack{
+  object-fit: cover;
+}
+
+#carrusel__logros {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+
+.calendario__logros{
+  color: white;
+  text-decoration: none;
+  background-color: #046ad0;
+  padding: 10px;
+  border: solid black 1px;
+  margin-top: 20px;
+      a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        border: rgb(0, 0, 0) solid 1px;
+        padding: 5px;
+        background-color: #fff ;
+            &:hover{
+              color: #046ad0;
+            }
+      }
+}
