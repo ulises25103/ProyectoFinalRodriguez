@@ -67,7 +67,6 @@
   nav ul {
     float: right;
     margin-right: 20px;
-  
     li {
       display: inline-block;
       line-height: 80px;
@@ -490,4 +489,23 @@
               color: $btn;
             }
       }
+}
+
+/* ERROR 404 */
+
+.error404{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  background-color:#e7f0fd ;
+    h1{
+      text-shadow: 2px 2px gray;
+    }
+}
+
+.logoremo{
+  height: 20vh;
 }
