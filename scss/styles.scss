@@ -414,11 +414,12 @@
         a{
           color: rgb(0, 0, 0);
           text-decoration: none;
-          border: rgb(0, 0, 0) solid 1px;
+          // border: rgb(0, 0, 0) solid 1px;
           padding: 5px;
           background-color: #fff ;
+          border-radius: 5px;
               &:hover{
-                color: $btn;
+                background-color: $btn;
               }
         }
   }
@@ -482,11 +483,12 @@
       a{
         color: rgb(0, 0, 0);
         text-decoration: none;
-        border: rgb(0, 0, 0) solid 1px;
+        // border: rgb(0, 0, 0) solid 1px;
         padding: 5px;
         background-color: #fff ;
+        border-radius: 5px;
             &:hover{
-              color: $btn;
+              background-color: $btn;
             }
       }
 }

@@ -361,12 +361,12 @@ iframe {
 .calendario a {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  border: rgb(0, 0, 0) solid 1px;
   padding: 5px;
   background-color: #fff;
+  border-radius: 5px;
 }
 .calendario a:hover {
-  color: #046ad0;
+  background-color: #046ad0;
 }
 
 /* SISTEMA DE FILTRADO GALERIA DE IMAGENES / GALERIA DE IMAGENES */
@@ -423,12 +423,12 @@ iframe {
 .calendario__logros a {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  border: rgb(0, 0, 0) solid 1px;
   padding: 5px;
   background-color: #fff;
+  border-radius: 5px;
 }
 .calendario__logros a:hover {
-  color: #046ad0;
+  background-color: #046ad0;
 }
 
 /* ERROR 404 */
