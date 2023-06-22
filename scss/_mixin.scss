@@ -1,0 +1,7 @@
+@mixin mixin-inicial($p, $m){
+    padding: $p;
+    margin: $m;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}

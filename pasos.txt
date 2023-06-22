@@ -3,6 +3,8 @@ Trabajar con git:
 1. git init
 Para inicializar repositorio git, solo se hace una vez en un sitio web
 
+git remote add origin "link del repositorio"
+
 2. git status
 Es para chequear que todo este bien
 
@@ -11,6 +13,8 @@ Esto permite agregar las modificaciones que agamos hecho
 
 4.git commit -m "Un mensaje cualquiera" (primer commit:git commit -m "first commit")
 Esto es para confirmar la subida de repositorio 
+
+git push -u origin main
 
 5. git branch 
 Es para crear una rama

@@ -1,0 +1,16 @@
+1. Crear carpeta scss
+
+2. Crear archivo .scss con el mismo nombre de mi css
+
+3. Hacer respaldo de css
+
+Comandos:
+
+1.Para iniciar el node package manager:
+npm init
+y darle 9 veces enter
+
+2. Para instalar SASS en mi proyecto
+npm install -g sass
+
+3. sass --watch scss:css
